@@ -6,49 +6,51 @@
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html class="not-ie" lang="en">
 <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-        <meta name="description" content="slider" />
-        <meta name="keywords" content="slider"/>
-        <title>slider &bull; Netflix-like carousel with touch scroll support and autoscrolling on hover</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="description" content="slider" />
+    <meta name="keywords" content="slider"/>
+    <title>slider &bull; Dead-simple Netflix-like scroller with drag support and autoscrolling on hover</title>
 
-        <!-- style sheets-->
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <link rel="stylesheet" type="text/css" href="slider.css">
-    </head>
-    <body>
-        <div class="container">
-            <h1>Slider <small>Netflix-like carousel with touch scroll support and autoscrolling on hover</small></h1>
-            <div class="row">
-                <div class="col-xs-6">
-                    <h3>Include this in your HTML:</h3>
-                    <pre>&lt;link rel="stylesheet" type="text/css" href="https://rawgit.com/secrettriangle/slider/master/slider.css"&gt;
+    <!-- style sheets-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="slider.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>Slider <small>Dead-simple Netflix-like scroller with drag support and autoscrolling on hover</small></h1>
+      </div>
+      <div class="row">
+        <div class="col-xs-6">
+          <h3>Include this in your HTML:</h3>
+          <pre>&lt;link rel="stylesheet" type="text/css" href="https://rawgit.com/secrettriangle/slider/master/slider.css"&gt;
 &lt;script src="https://rawgit.com/skidding/dragdealer/master/lib/dragdealer.min.js"&gt;&lt;/script&gt;
 &lt;script src="https://rawgit.com/secrettriangle/slider/master/slider.js"&gt;&lt;/script&gt;</pre>
-                </div>
-                <div class="col-xs-6">
-                    <h3>Add this to your JS:</h3>
-                    <div>
-                        <textarea id="example-code" class="form-control" rows="5">$('#example-slider').slider({
+        </div>
+        <div class="col-xs-6">
+          <h3>Add this to your JS:</h3>
+          <div>
+            <textarea id="example-code" class="form-control" rows="5">$('#example-slider').slider({
   hover: {speed: {x: .007, y: .007}, interval: 40},
   arrowWidth: 25
 });</textarea>
-                    </div>
-                </div>
-            </div>
-            <h3>Get this:</h3>
-            <div id="example-slider">
-                <img src="http://nextranks.com/data_images/main/cats/cats-04.jpg">
-                <a href="#">Arbitrary HTML is supported of course.</a>
-                <img src="https://www.petfinder.com/wp-content/uploads/2012/11/99059361-choose-cat-litter-632x475.jpg">
-                <img src="https://31.media.tumblr.com/ffbc77ec4f4bdfb17338db131513ac76/tumblr_inline_nbx8jmlAKq1qbf000.jpg">
-            </div>
+          </div>
         </div>
+      </div>
+      <h3>Get this:</h3>
+      <div id="example-slider">
+        <img src="http://nextranks.com/data_images/main/cats/cats-04.jpg">
+        <a href="#">Arbitrary HTML is supported of course.</a>
+        <img src="https://www.petfinder.com/wp-content/uploads/2012/11/99059361-choose-cat-litter-632x475.jpg">
+        <img src="https://31.media.tumblr.com/ffbc77ec4f4bdfb17338db131513ac76/tumblr_inline_nbx8jmlAKq1qbf000.jpg">
+      </div>
+    </div>
 
-        <a href="https://github.com/secrettriangle/slider"><img class="fork-me" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" /></a>
+    <a href="https://github.com/secrettriangle/slider"><img class="fork-me" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" /></a>
 
-        <script data-main="index" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js"></script>
-    </body>
+    <script data-main="index" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js"></script>
+  </body>
 </html>
