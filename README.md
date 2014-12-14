@@ -1,4 +1,4 @@
-slider
-======
+[slider](http://secrettriangle.github.io/slider/)
+========
 
-Netflix-like carousel with touch scroll support and autoscrolling on hover
+Dead-simple Netflix-like scroller with drag support and autoscrolling on hover
