@@ -1,0 +1,16 @@
+.slider { position: relative; overflow: hidden;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+.slider-inner { position: absolute; top: 0; left: 0; cursor: move; }
+.slider-arrow { position: absolute; background-color: #000000; color: white; opacity: .25; text-align: center; overflow: hidden; font-size: 0; }
+.slider-arrow:hover { opacity: .5; }
+.slider-arrow span { position: relative; top: 50%; line-height: 0; font-size: medium; }
+.slider-arrow-up, .slider-arrow-down { left: 25px; right: 25px; height: 25px; }
+.slider-arrow-up { top: 0; }
+.slider-arrow-down { bottom: 0; }
+.slider-arrow-left, .slider-arrow-right { top: 0; bottom: 0; height: 100%; width: 25px; }
+.slider-arrow-left { left: 0; }
+.slider-arrow-right { right: 0; }
