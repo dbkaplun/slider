@@ -37,7 +37,7 @@
       // init
       data = $.extend(true, {
         hover: {speed: {x: .007, y: .007}, interval: 40},
-        arrowWidth: 25,
+        arrowWidth: 50,
         dragdealerOpts: {
           vertical: true,
           handleClass: INNER_CLASS,
