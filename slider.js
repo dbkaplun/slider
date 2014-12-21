@@ -10,7 +10,7 @@
   var ARROW_CLASS = NAME + '-arrow';
 
   var ARROW_MOVE_EVENTS = 'mouseover mousedown touchstart touchmove';
-  var ARROW_STOP_EVENTS = 'mouseleave mouseup touchend';
+  var ARROW_STOP_EVENTS = 'mouseleave touchend';
 
   function stop (data, evt) { evt.stopPropagation(); evt.preventDefault(); clearInterval(data.moveInterval); }
   function move (data, direction, evt) {
