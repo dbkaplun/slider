@@ -5,8 +5,8 @@
   -ms-user-select: none;
   user-select: none; }
 .slider-inner { position: absolute; top: 0; left: 0; cursor: move; }
-.slider-arrow { position: absolute; background-color: #000000; color: white; opacity: .25; text-align: center; overflow: hidden; font-size: 0; }
-.slider-arrow:hover { opacity: .5; }
+.slider-arrow { position: absolute; background-color: #000000; color: white; opacity: .75; text-align: center; overflow: hidden; font-size: 0; }
+.slider-arrow:hover { opacity: .25; }
 .slider-arrow span { position: relative; top: 50%; line-height: 0; font-size: medium; }
 .slider-arrow-up, .slider-arrow-down { left: 50px; right: 50px; height: 50px; }
 .slider-arrow-up { top: 0; }
