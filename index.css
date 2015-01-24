@@ -1,4 +1,7 @@
 #example-slider { height: 400px; border: 1px solid black; overflow: hidden; white-space: nowrap; font-size: 0; }
-#example-slider .slider-inner * { font-size: medium; height: 400px; }
 
+#example-slider .slider-inner > * { font-size: medium; height: 400px; vertical-align: top; }
+
+.example-slider-html { display: inline-block; }
+.example-slider-html * { display: block; text-align: center; }
 .fork-me { position: fixed; top: 0; right: 0; border: 0; }

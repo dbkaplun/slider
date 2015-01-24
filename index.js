@@ -23,5 +23,10 @@ require(['jquery', 'slider'], function (jQuery) {
     }
     $exampleCode.on('keydown keyup', function () { setTimeout(evalExampleCode, 0); });
     evalExampleCode();
+
+    $('.example-slider-html a').click(function (evt) {
+      evt.preventDefault();
+      alert("Clicked!");
+    });
   });
 });
